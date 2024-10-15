@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="0" skipped="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Application...]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for application launch...]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on gender button...]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on next button...]]>
+    </line>
+    <line>
+      <![CDATA[Selecting age...]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on next button...]]>
+    </line>
+    <line>
+      <![CDATA[Entering pincode...]]>
+    </line>
+    <line>
+      <![CDATA[Entering mobile number...]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on continue button...]]>
+    </line>
+    <line>
+      <![CDATA[Getting policy count from text displayed...]]>
+    </line>
+    <line>
+      <![CDATA[Getting policy count from banners displayed...]]>
+    </line>
+    <line>
+      <![CDATA[TC validatePolicyCount Passed]]>
+    </line>
+    <line>
+      <![CDATA[Closing Application...]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-14T15:23:16 IST" name="Suite" finished-at="2024-10-14T15:23:44 IST" duration-ms="28060">
+    <groups>
+    </groups>
+    <test started-at="2024-10-14T15:23:16 IST" name="Test" finished-at="2024-10-14T15:23:44 IST" duration-ms="28060">
+      <class name="coverFoxTest.CoverFoxTestClass">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:coverFoxTest.CoverFoxTestClass@5c6648b0]" started-at="2024-10-14T15:23:16 IST" name="launchApplication" finished-at="2024-10-14T15:23:20 IST" duration-ms="4229" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Application...]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for application launch...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="enterDetails()[pri:0, instance:coverFoxTest.CoverFoxTestClass@5c6648b0]" started-at="2024-10-14T15:23:20 IST" name="enterDetails" finished-at="2024-10-14T15:23:40 IST" duration-ms="20345" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on gender button...]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on next button...]]>
+            </line>
+            <line>
+              <![CDATA[Selecting age...]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on next button...]]>
+            </line>
+            <line>
+              <![CDATA[Entering pincode...]]>
+            </line>
+            <line>
+              <![CDATA[Entering mobile number...]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on continue button...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method signature="validatePolicyCount()[pri:0, instance:coverFoxTest.CoverFoxTestClass@5c6648b0]" started-at="2024-10-14T15:23:40 IST" name="validatePolicyCount" finished-at="2024-10-14T15:23:43 IST" duration-ms="3109" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Getting policy count from text displayed...]]>
+            </line>
+            <line>
+              <![CDATA[Getting policy count from banners displayed...]]>
+            </line>
+            <line>
+              <![CDATA[TC validatePolicyCount Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatePolicyCount -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:coverFoxTest.CoverFoxTestClass@5c6648b0]" started-at="2024-10-14T15:23:44 IST" name="closeApplication" finished-at="2024-10-14T15:23:44 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Application...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- coverFoxTest.CoverFoxTestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2024-10-14T15:23:44 IST" name="Suite (0)" finished-at="2024-10-14T15:23:45 IST" duration-ms="1506">
+    <groups>
+    </groups>
+    <test started-at="2024-10-14T15:23:44 IST" name="Test" finished-at="2024-10-14T15:23:45 IST" duration-ms="1506">
+      <class name="coverFoxTest.CoverFoxValidateErrorMsg">
+        <test-method is-config="true" signature="enterDetails()[pri:0, instance:coverFoxTest.CoverFoxValidateErrorMsg@22555ebf]" started-at="2024-10-14T15:23:44 IST" name="enterDetails" finished-at="2024-10-14T15:23:45 IST" duration-ms="1482" status="FAIL">
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[Unable to obtain: chromedriver, error Command failed with code: -1073741819, executed: [--browser, chrome, --language-binding, java, --output, json]
+
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Command failed with code: -1073741819, executed: [--browser, chrome, --language-binding, java, --output, json]
+
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at coverFoxBase.base.launchBrowser(base.java:21)
+at coverFoxTest.CoverFoxValidateErrorMsg.enterDetails(CoverFoxValidateErrorMsg.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073741819, executed: [--browser, chrome, --language-binding, java, --output, json]
+
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:170)
+at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:247)
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
+... 41 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method signature="validatePinCodeErrorMsg()[pri:-1, instance:coverFoxTest.CoverFoxValidateErrorMsg@22555ebf]" started-at="2024-10-14T15:23:45 IST" name="validatePinCodeErrorMsg" finished-at="2024-10-14T15:23:45 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[Unable to obtain: chromedriver, error Command failed with code: -1073741819, executed: [--browser, chrome, --language-binding, java, --output, json]
+
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Command failed with code: -1073741819, executed: [--browser, chrome, --language-binding, java, --output, json]
+
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at coverFoxBase.base.launchBrowser(base.java:21)
+at coverFoxTest.CoverFoxValidateErrorMsg.enterDetails(CoverFoxValidateErrorMsg.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073741819, executed: [--browser, chrome, --language-binding, java, --output, json]
+
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:170)
+at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:247)
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
+... 41 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePinCodeErrorMsg -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:coverFoxTest.CoverFoxValidateErrorMsg@22555ebf]" started-at="2024-10-14T15:23:45 IST" name="closeApplication" finished-at="2024-10-14T15:23:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="enterDetails()[pri:0, instance:coverFoxTest.CoverFoxValidateErrorMsg@22555ebf]" started-at="2024-10-14T15:23:45 IST" name="enterDetails" finished-at="2024-10-14T15:23:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method signature="validateMobileNumErrorMsg()[pri:0, instance:coverFoxTest.CoverFoxValidateErrorMsg@22555ebf]" started-at="2024-10-14T15:23:45 IST" name="validateMobileNumErrorMsg" finished-at="2024-10-14T15:23:45 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[Unable to obtain: chromedriver, error Command failed with code: -1073741819, executed: [--browser, chrome, --language-binding, java, --output, json]
+
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Command failed with code: -1073741819, executed: [--browser, chrome, --language-binding, java, --output, json]
+
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at coverFoxBase.base.launchBrowser(base.java:21)
+at coverFoxTest.CoverFoxValidateErrorMsg.enterDetails(CoverFoxValidateErrorMsg.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073741819, executed: [--browser, chrome, --language-binding, java, --output, json]
+
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:170)
+at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:247)
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
+... 41 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMobileNumErrorMsg -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:coverFoxTest.CoverFoxValidateErrorMsg@22555ebf]" started-at="2024-10-14T15:23:45 IST" name="closeApplication" finished-at="2024-10-14T15:23:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="enterDetails()[pri:0, instance:coverFoxTest.CoverFoxValidateErrorMsg@22555ebf]" started-at="2024-10-14T15:23:45 IST" name="enterDetails" finished-at="2024-10-14T15:23:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method signature="validateErrMsgs()[pri:1, instance:coverFoxTest.CoverFoxValidateErrorMsg@22555ebf]" started-at="2024-10-14T15:23:45 IST" name="validateErrMsgs" finished-at="2024-10-14T15:23:45 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[Unable to obtain: chromedriver, error Command failed with code: -1073741819, executed: [--browser, chrome, --language-binding, java, --output, json]
+
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Command failed with code: -1073741819, executed: [--browser, chrome, --language-binding, java, --output, json]
+
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
+at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
+at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+at coverFoxBase.base.launchBrowser(base.java:21)
+at coverFoxTest.CoverFoxValidateErrorMsg.enterDetails(CoverFoxValidateErrorMsg.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.WebDriverException: Command failed with code: -1073741819, executed: [--browser, chrome, --language-binding, java, --output, json]
+
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:170)
+at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:247)
+at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
+... 41 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrMsgs -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:coverFoxTest.CoverFoxValidateErrorMsg@22555ebf]" started-at="2024-10-14T15:23:45 IST" name="closeApplication" finished-at="2024-10-14T15:23:45 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- coverFoxTest.CoverFoxValidateErrorMsg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
