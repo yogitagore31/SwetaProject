@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -38,6 +39,7 @@ public class CoverFoxValidateErrorMsg extends base {
 	public void enterDetails() throws EncryptedDocumentException, IOException, InterruptedException
 	{
 		launchBrowser();
+		Reporter.log("Application Luanched",true);
 		
 		logger= Logger.getLogger("MyMavenProject");
 		PropertyConfigurator.configure("log4j.properties");
