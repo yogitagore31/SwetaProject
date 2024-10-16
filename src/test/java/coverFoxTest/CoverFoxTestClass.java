@@ -99,6 +99,7 @@ public class CoverFoxTestClass extends base {
 	@AfterClass
 	public void closeApplication()
 	{
+		Reporter.log("Closing Browser",true);
 		closeBrowser();
 	}
 }
