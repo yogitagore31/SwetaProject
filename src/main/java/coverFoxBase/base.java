@@ -1,6 +1,7 @@
 package coverFoxBase;
 
 import java.io.IOException;
+
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
